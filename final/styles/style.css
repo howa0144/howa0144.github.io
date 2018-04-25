@@ -140,6 +140,29 @@ button {
 	}
 /*Success Styles*/
 
+.has-success .feedback {
+	color: #66ff66;
+}
+
+.has-success input[type=text],
+.has-success input[type=email],
+.has-success textarea {
+	background:#66ff66;
+	border-color:1px solid #66ff66;
+}
+/*Error Styles*/
+.has-error .feedback {
+	color: #ff5c33;
+}
+.has-error input[type=text],
+.has-error input[type=email],
+.has-error textarea {
+	background: #ff5c33;
+	border-color:1px solid #ff5c33;
+	color: #FFF;
+}
+
+
 /*SLideshow*/
 * {box-sizing:border-box}
 
