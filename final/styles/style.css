@@ -100,7 +100,7 @@ nav li a {
 }
 
 #sample2 {
-	font-family: 'open_sansregular',agency fb arial;
+	font-family: 'open_sansregular',agency fb, arial;
 	 color: #FFF;
 	  font-size: 20px;
 	}
