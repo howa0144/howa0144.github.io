@@ -1,9 +1,122 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
 <head>
-	<title>Contact Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Hell Michigan</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
+  <div id="container" class="container">
+    <!-- Header Begin -->
+    <header class="site-header">        
+      <a href="index.html">
+        <img src="images/logo.png" class="logo" alt="Hell Michigan logo">
+      </a>
 
+      <!-- begining of nav button -->
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="contact.html" class="navbutton">Contact Us</a>
+          </li>
+          <li>
+            <a href="about.html" class="navbutton">About Us</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End of nav buttons  -->
+    </header>
+    <!-- Header End -->
+    <!-- Form begin -->
+<div>
+  <p id="contact-head" style="color: #ff6a70; font-size: 38px; font-family:agency fb, arial">Contact Us</p>
+  <p id="form-info" style="color: #FFF; font-size: 25px; font-family:agency fb, arial">Use the form below to inquire about becoming mayor, wedding dates or any other questions.</p>
+  <br>
+  <form id="contact-form" action="somepage.php" method="get">
+    <div class="input_container required">
+      <label class="input-label label-text" for="firstname">First Name:</label>
+      <br>
+      <input type="text" id="firstname" name="firstname" placeholder="Your name..">
+      <p class="feedback"></p>
+    </div>
+    <div class="input_container required">
+      <label class="input-label label-text" for="lastname">Last Name:</label>
+      <br>
+      <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+      <p class="feedback"></p>
+    </div>
+    <div class="input_container required">
+      <label class="input-label label-text" for="email">E-mail:</label>
+      <br>
+      <input type="email" id="email" name="email" placeholder="Your E-mail Address">
+      <p class="feedback"></p>
+    </div>
+    <div class="input_container required">
+      <label class="input-label label-text" for="subject">Write to us here:</label>
+      <br>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <p class="feedback"></p>
+    </div>
+
+    <div class="input-container required-checkbox">
+          <h4 class="label-text">Type of Inquiry:</h4>
+          <label for="wedding">
+            Wedding Dates
+            <input type="checkbox" name="subject" id="wedding" value="wedding">
+          </label>
+          <br>
+          <label for="mayor">
+            Becoming Mayor
+            <input type="checkbox" name="subject" id="mayor" value="mayor">
+          </label>
+          <br>
+          <label for="other">
+            Other
+            <input type="checkbox" name="subject" id="other" value="other">
+          </label>
+          <p  class="feedback"></p>
+          
+        </div>
+
+        <div class="input-container">
+          <h4>Sign Up For Our Newsletter?</h4>
+          <label for="yes">
+            Yes:
+            <input type="radio" name="forms" id="yes" checked>
+          </label>
+          <br>
+          <label for="no">
+            No:
+            <input type="radio" name="forms" id="no">
+          </label>
+          <p class="feedback"></p>
+          
+        </div>
+    <div>
+    <button type="submit" id="btn-submit">Submit</button>
+    </div>
+  </form>
+</div>
+<!-- Form end -->
+<!-- footer begin -->
+  <footer  id="footer" class="footer">
+    <div class="social_media">
+    <a href="http://www.facebook.com">
+      <img src="images/facebook.png" id="fb_logo" alt="facebook logo"></a>
+    <a href="http://www.instagram.com">
+      <img src="images/instagram.png" id="insta_logo" alt="instagram logo"></a>
+    <a href="http://www.twitter.com">
+      <img src="images/twitter.png" id="twitter_logo" alt="twitter logo"></a>
+    <a href="http://www.youtube.com">
+      <img src="images/youtube.png" id="youtube_logo" alt="youtube logo"></a>
+    <p>Copyright &copy; 2018 Virginia Howard</p>
+    </div>
+  </footer>
+  <!-- footer end -->
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/validation.js"></script>
 </body>
 </html>
