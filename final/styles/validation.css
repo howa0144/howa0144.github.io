@@ -1,5 +1,41 @@
-@charset "utf-8";
+#contact-head {
+	padding: 20px;
+}
 
+#form-info {
+	padding-left: 20px;
+}
+form {
+	color: #fff;
+	font-size: 22px;
+	font-family: agency fb, arial;
+	border-color: #ff6a70;
+	padding: 20px;
+	transition: all 0.3s ease-out;
+}
+input[type=text], 
+textarea,
+input[type=email],
+select {
+	width: 45%;
+	border:1px solid gray ;
+	transition: all 0.5s ease-out;
+
+}
+button {
+	display: inline-block;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 15px; 
+	background-color: #ff9b3f;
+	font-size: 25px;
+	font-family: MyriadPro-Regular,Agency FB,  arial;
+	text-decoration: none;
+	color: #b63600;	 
+}
+
+/*Success Styles*/
 .has-success .feedback {
 	color: #66ff66;
 }
